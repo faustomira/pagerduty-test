@@ -1,0 +1,58 @@
+2022-01-20 21:50:31,130 [MainThread  ] [INFO ]  Starting migration cleanup for teams entity
+2022-01-20 21:50:31,130 [MainThread  ] [INFO ]  Starting migration cleanup for teams entity
+2022-01-20 21:50:31,134 [MainThread  ] [INFO ]  Retrieving teams ID to be cleaned up
+2022-01-20 21:50:31,134 [MainThread  ] [INFO ]  Retrieving teams ID to be cleaned up
+2022-01-20 21:50:31,151 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:31,151 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:32,518 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "GET /teams HTTP/1.1" 200 536
+2022-01-20 21:50:32,518 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "GET /teams HTTP/1.1" 200 536
+2022-01-20 21:50:32,525 [MainThread  ] [INFO ]  Teams ID list: ['PSB84V7', 'PP1K3FH', 'P8SZ33U', 'P4GO2R4', 'P1701BE', 'PK391LL', 'PGTL19Y', 'PCHA0X8']
+2022-01-20 21:50:32,525 [MainThread  ] [INFO ]  Teams ID list: ['PSB84V7', 'PP1K3FH', 'P8SZ33U', 'P4GO2R4', 'P1701BE', 'PK391LL', 'PGTL19Y', 'PCHA0X8']
+2022-01-20 21:50:32,531 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:32,531 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:33,789 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/PSB84V7 HTTP/1.1" 204 0
+2022-01-20 21:50:33,789 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/PSB84V7 HTTP/1.1" 204 0
+2022-01-20 21:50:33,795 [MainThread  ] [INFO ]  Team 'PSB84V7' successfully deleted
+2022-01-20 21:50:33,795 [MainThread  ] [INFO ]  Team 'PSB84V7' successfully deleted
+2022-01-20 21:50:33,800 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:33,800 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:35,027 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/PP1K3FH HTTP/1.1" 204 0
+2022-01-20 21:50:35,027 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/PP1K3FH HTTP/1.1" 204 0
+2022-01-20 21:50:35,033 [MainThread  ] [INFO ]  Team 'PP1K3FH' successfully deleted
+2022-01-20 21:50:35,033 [MainThread  ] [INFO ]  Team 'PP1K3FH' successfully deleted
+2022-01-20 21:50:35,039 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:35,039 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:36,250 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/P8SZ33U HTTP/1.1" 204 0
+2022-01-20 21:50:36,250 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/P8SZ33U HTTP/1.1" 204 0
+2022-01-20 21:50:36,255 [MainThread  ] [INFO ]  Team 'P8SZ33U' successfully deleted
+2022-01-20 21:50:36,255 [MainThread  ] [INFO ]  Team 'P8SZ33U' successfully deleted
+2022-01-20 21:50:36,259 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:36,259 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:37,499 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/P4GO2R4 HTTP/1.1" 204 0
+2022-01-20 21:50:37,499 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/P4GO2R4 HTTP/1.1" 204 0
+2022-01-20 21:50:37,505 [MainThread  ] [INFO ]  Team 'P4GO2R4' successfully deleted
+2022-01-20 21:50:37,505 [MainThread  ] [INFO ]  Team 'P4GO2R4' successfully deleted
+2022-01-20 21:50:37,512 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:37,512 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:38,633 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/P1701BE HTTP/1.1" 204 0
+2022-01-20 21:50:38,633 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/P1701BE HTTP/1.1" 204 0
+2022-01-20 21:50:38,640 [MainThread  ] [INFO ]  Team 'P1701BE' successfully deleted
+2022-01-20 21:50:38,640 [MainThread  ] [INFO ]  Team 'P1701BE' successfully deleted
+2022-01-20 21:50:38,646 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:38,646 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:39,891 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/PK391LL HTTP/1.1" 204 0
+2022-01-20 21:50:39,891 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/PK391LL HTTP/1.1" 204 0
+2022-01-20 21:50:39,896 [MainThread  ] [INFO ]  Team 'PK391LL' successfully deleted
+2022-01-20 21:50:39,896 [MainThread  ] [INFO ]  Team 'PK391LL' successfully deleted
+2022-01-20 21:50:39,901 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:39,901 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:41,151 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/PGTL19Y HTTP/1.1" 204 0
+2022-01-20 21:50:41,151 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/PGTL19Y HTTP/1.1" 204 0
+2022-01-20 21:50:41,161 [MainThread  ] [INFO ]  Team 'PGTL19Y' successfully deleted
+2022-01-20 21:50:41,161 [MainThread  ] [INFO ]  Team 'PGTL19Y' successfully deleted
+2022-01-20 21:50:41,175 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:41,175 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.pagerduty.com:443
+2022-01-20 21:50:42,434 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/PCHA0X8 HTTP/1.1" 204 0
+2022-01-20 21:50:42,434 [MainThread  ] [DEBUG]  https://api.pagerduty.com:443 "DELETE /teams/PCHA0X8 HTTP/1.1" 204 0
+2022-01-20 21:50:42,444 [MainThread  ] [INFO ]  Team 'PCHA0X8' successfully deleted
+2022-01-20 21:50:42,444 [MainThread  ] [INFO ]  Team 'PCHA0X8' successfully deleted
