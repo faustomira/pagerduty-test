@@ -1,4 +1,4 @@
 venv*/
-logs/.log
+logs/*.log
 **/__pycache__/
 env.ps1
