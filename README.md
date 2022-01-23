@@ -15,11 +15,11 @@ In order to install dependencies (actually very little, mostly using requests), 
 Ommitted from versioning is the logs/ directory which holds log files for each execution's attempt. 
 Also venv/ directory was ommitted as per .gitignore file.
 
-- Module `migrate_teams.py` performs the tasks to allow teams data structure migration from source instance to target instance.
+- Module `migrate.py` performs the tasks to allow teams and users data structure migration from source instance to target instance.
 
 - Module `commons/utils.py` takes cares of logging functionality with all needed setup that allows both stdout messages as well as log files written into filesystem.
 
-- Module `clean_migration.py` handles the data cleanup after a migration has taken place. If one wishes to re-run it again, all it takes is to execute this cleanup simples utility.
+- Module `clean_migration.py` handles the data cleanup after a migration has taken place. If one wishes to re-run it again, all it takes is to execute this cleanup simple utility.
 
 - The `test_pdpyras.py` module was a quick attempt to check how this library built by developer's team would work, since it stands as a helper tool for performing API requests without reinventing the whell whenever an interaction is needed against PagerDuty API.
 

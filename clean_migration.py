@@ -1,8 +1,8 @@
 from email.errors import InvalidMultipartContentTransferEncodingDefect
 import requests
 import json
-from migrate_teams import retrieve_entity_id
-from migrate_teams import TARGET_KEY, base_url, headers
+from migrate import retrieve_entity_id
+from migrate import TARGET_KEY, base_url, headers
 import logging
 from commons.utils import setup_logging
 
